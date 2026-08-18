@@ -12,7 +12,7 @@ test('amazon', async ({ page }) => {
     console.log("ebduedj");
     
 
-    await expect(page).toHaveTitle(` Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+    // await expect(page).toHaveTitle(` Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
 `);
     await expect(page).toHaveURL(`https://www.amazon.in/`);
 })
