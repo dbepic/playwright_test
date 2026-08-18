@@ -8,7 +8,7 @@ test('Prompt Alert', async ({ page }) => {
         console.log('Type:', dialog.type());
         console.log('Message:', dialog.message());
         
-        await dialog.accept('Swetha');
+        await dialog.accept('Swe');
         console.log('Prompt Accepted');
     });
 
