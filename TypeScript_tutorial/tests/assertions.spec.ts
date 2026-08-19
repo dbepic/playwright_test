@@ -1,4 +1,4 @@
-import {test,expect} from '@playwright/test';]
+import {test,expect} from '@playwright/test';
 test('locator',async({page})=>{
 //     page.goto
     await page.goto('https://demoqa.com/text-box');
