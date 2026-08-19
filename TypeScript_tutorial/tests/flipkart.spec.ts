@@ -8,7 +8,7 @@ test('flipkart', async ({ page }) => {
     console.log(`page title ${title}`);
 
     const pageURL = await page.url();
-    console.log(`page url is ${pageURL}`);
+    console.log(`page url this is a ${pageURL}`);
 
     await expect(page).toHaveTitle(`Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!`);
     await expect(page).toHaveURL(`https://www.flipkart.com/`);
