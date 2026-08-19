@@ -13,5 +13,6 @@ test('Prompt Alert', async ({ page }) => {
     });
 
     await page.locator('#promtButton').click();
+    console.log(`prompt alert`)
   
 });
