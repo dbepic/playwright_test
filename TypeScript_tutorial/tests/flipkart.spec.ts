@@ -20,7 +20,7 @@ test('amazon', async ({ page }) => {
     await page.goto(`https://www.amazon.in/`);
 
     const title = await page.title();
-    console.log(`page title ${title}`);
+    console.log(`page title ${e}`);
     console.log(`page title ${title}`);
 
     const pageURL = await page.url();
