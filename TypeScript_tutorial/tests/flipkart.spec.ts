@@ -21,6 +21,7 @@ test('amazon', async ({ page }) => {
 
     const title = await page.title();
     console.log(`page title ${title}`);
+    console.log(`page title ${title}`);
 
     const pageURL = await page.url();
     console.log(`page url is ${pageURL}`)
