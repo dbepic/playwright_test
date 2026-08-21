@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","3548","flipkart","chromium","2026-08-21","passed","2026-08-21","","flipkart.spec.ts","",""
+"","4570","amazon","chromium","2026-08-21","passed","2026-08-21","","flipkart.spec.ts","",""
