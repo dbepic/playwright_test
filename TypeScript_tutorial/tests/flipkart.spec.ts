@@ -23,8 +23,7 @@ test('amazon', async ({ page }) => {
     console.log(`page title ${title}`);
 
     const pageURL = await page.url();
-    console.log(`page url is ${pageURL}`);
-    console.log(`page urk is ${pageURL}`)
+    console.log(`page url is ${pageURL}`)
 
     await expect(page).toHaveTitle(` Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
         
